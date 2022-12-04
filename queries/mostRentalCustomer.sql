@@ -7,3 +7,7 @@ ON customer.address_id = address.address_id
 GROUP BY rental.customer_id
 ORDER BY totrental DESC
 LIMIT 1
+
+-- RESULT:
+-- # customer_id	last_name	first_name	totrental	     address	      latitude	    longitude
+--      148	      HUNT	     ELEANOR    	46        17 IMP DES JARDINS  46.1068512   5.9663385
