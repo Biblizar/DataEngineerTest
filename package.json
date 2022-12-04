@@ -1,0 +1,19 @@
+{
+  "name": "testdata",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Mathieu",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "prisma": "^4.7.1"
+  }
+}
